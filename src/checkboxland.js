@@ -170,6 +170,7 @@ function _createInitialCheckboxDisplay(displayEl, data) {
       checkboxEl.style.margin = 0;
       checkboxEl.style.verticalAlign = 'top';
       checkboxEl.type = 'radio';
+      checkboxEl.name = 'radioland';
       checkboxEl.tabIndex = '-1';
       checkboxEl.checked = checkedVal;
       checkboxEl.indeterminate = indeterminateVal;
